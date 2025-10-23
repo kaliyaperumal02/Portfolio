@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-left: 300px;
-    gap:30px;
+    gap:15px;
 }
 .form-control:focus{
     border: 2px solid #00eaff;
