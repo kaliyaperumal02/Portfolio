@@ -19,319 +19,416 @@
 
   <body class=" m-0 border-0 bd-example m-0 border-0">
     <!-- nav bar-->
-    <nav class="navbar navbar-expand-lg text-gray navbar-container ps-5 pe-5 pt-3 pb-3">
-      <div class="container-fluid">
-        <a class="navbar-brand text-white" href="#">K>Kaliyaperumal/></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-list ">
-            <li class="nav-item home">
-              <a class="nav-link" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skill">Skill</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#contact">Contact</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li> -->
-            <!-- <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li> -->
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline search" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto text-white" href="#">K>Kaliyaperumal/></a>
+                <div class="offcanvas offcanvas-end" tabindex="-1"
+                    id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title"
+                            id="offcanvasNavbarLabel">K>Kaliyaperumal/></h5>
+                        <button type="button" class="btn-close"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul
+                            class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2"
+                                    aria-current="page" href="#homepg" id="home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#abouts" id="about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#skill" id="skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2"
+                                    href="#project" id="projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#contacts" id="contact">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <a href="./K Kaliyaperumal.pdf" download="" class="login-button">Download CV</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
     </nav>
 
     <!--Name content-->
-
-    <div class="name" id="home">
-        <div class="namecontent">
-        <h1>Kaliyaperumal K</h1>
-        <h4 data-text=">Full Stack Web Developer/>"><span><</span>Full Stack Web Developer/></h4>
-        <p>Specialized in building modern web applications with React, Node.js, and cloud technologies.</p>
-        </div>
-        <div class="icone mt-3 mb-4 d-flex gap-3">
-            <a href=""><button><i class="bi bi-github fs-5 icone-primary"></i></button></i></a>
-            <a href=""><button><i class="bi bi-linkedin fs-5"></i></button></i></a>
-            <a href="mailto:mks1192002@gmail.com" target="_blank"><button><i class="bi bi-envelope fs-5"></i></i></button></i></a>
-        </div>
-        <div class="buttonmain mt-2">
-            <a href="#project"><button class="btn btn-outline View">View My Work</button></a>
-            <a href="./K Kaliyaperumal.pdf" download=""><button class="btn btn-outline download">Download CV</button></a>
-        </div>
-    </div>
+    <section id="homepg"> 
+      <div class="name">
+        <div data-aos="fade-up">
+          <div class="namecontent">
+            <h1>Kaliyaperumal K</h1>
+            <h4 data-text=">Full Stack Web Developer/>"><span><</span>Full Stack Web Developer/></h4>
+            <p>Specialized in building modern web applications with React, Node.js, and cloud technologies.</p>
+            </div>
+          </div>
+          <div data-aos="fade-up">
+            <div class="icone mt-3 mb-4 d-flex gap-3">
+                <a href=""><button><i class="bi bi-github fs-5 icone-primary"></i></button></i></a>
+                <a href=""><button><i class="bi bi-linkedin fs-5"></i></button></i></a>
+                <a href="mailto:mks1192002@gmail.com" target="_blank"><button><i class="bi bi-envelope fs-5"></i></i></button></i></a>
+            </div>
+          </div>  
+          <div data-aos="fade-up">
+            <div class="buttonmain mt-2">
+                <a href="#project"><button class="btn btn-outline View">View My Work</button></a>
+                <a href="./K Kaliyaperumal.pdf" download=""><button class="btn btn-outline download">Download CV</button></a>
+            </div>
+          </div>
+      </div>
+    </section>
+    
 
     <!--About me-->
-    <div class="aboutmain" id="about">
-      <h1 class="about"><span>Who</span> Am I ?/></h1>
-      <!-- <div class="box"></div> -->
-      <div class="imgmain">
-        <div data-aos="fade-right"><div class="content">
-        <p>Completed a Certification in Full Stack Web Development
-          course and Seeking an entry-level opportunity to apply my
-          skills in front-end and back-end technologies, contribute to
-          innovative projects. Passionate about coding, problem-
-          solving, and continuously learning new technologies to deliver
-          high-quality digital solutions.</p>
-          <div class="perform">
-            <div class="check"><i class="bi bi-check-circle fs-5"></i>5+ successful project delivered</div>
-            <div class="check"><i class="bi bi-check-circle fs-5"></i>Open source contributer</div>
-            <div class="check"><i class="bi bi-check-circle fs-5"></i>Always learning and evolving</div>
-            <a href=""><button>Get in touch</button></a>
-          </div>
-      </div></div>
-      <div data-aos="fade-left">
-        <div class="myimg">
-        <img src="./img/IMG_20250916_143916_103(1)(1).png" alt="" width="550px" height="600px">
+    <section id="abouts">
+      <div class="aboutmain" >
+        <h1 class="about"><span>Who</span> Am I ?/></h1>
+        <!-- <div class="box"></div> -->
+        <div class="imgmain">
+          <div data-aos="fade-right"><div class="content">
+          <p>Completed a Certification in Full Stack Web Development
+            course and Seeking an entry-level opportunity to apply my
+            skills in front-end and back-end technologies, contribute to
+            innovative projects. Passionate about coding, problem-
+            solving, and continuously learning new technologies to deliver
+            high-quality digital solutions.</p>
+            <div class="perform">
+              <div class="check"><i class="bi bi-check-circle fs-5"></i>5+ successful project delivered</div>
+              <div class="check"><i class="bi bi-check-circle fs-5"></i>Open source contributer</div>
+              <div class="check"><i class="bi bi-check-circle fs-5"></i>Always learning and evolving</div>
+              <a href=""><button>Get in touch</button></a>
+            </div>
+        </div></div>
+        <div data-aos="fade-left">
+          <div class="myimg">
+          <img src="./img/IMG_20250916_143916_103(1)(1).png" alt="" width="550px" height="600px">
+        </div>
+        </div>
+        
+        </div>
       </div>
-      </div>
-      
-      </div>
-    </div>
+    </section>
 
     <!--My skills-->
-
-    <div class="skillmain" id="skill">
-      <h1>My <span>Skills/></span></h1>
-      
-      <div class="row1">
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="html">
-            <img src="./img/html.png" alt="" width="50px" height="50px">
-            <p>Html</p>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="CSS">
-            <img src="./img/css-3.png" alt="" width="50px" height="50px">
-            <p>CSS</p>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Java">
-            <img src="./img/java-script.png" alt="" width="50px" height="50px">
-            <p>Java-script</p>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Bootstrap">
-            <img src="./img/media.png" alt="" width="50px" height="50px">
-            <p>Bootstrap</p>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="JQuery">
-            <img src="./img/social.png" alt="" width="50px" height="50px">
-            <p>JQuery</p>
-          </div>
-        </div>
+    <section id="skill">
+      <div class="skillmain">
+        <h1>My <span>Skills/></span></h1>
         
-      </div>
-
-      <div class="row2">
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Reactjs">
-            <img src="./img/library.png" alt="" width="50px" height="50px">
-            <p>Reactjs</p>
+        <div class="row1">
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="html">
+              <img src="./img/html.png" alt="" width="50px" height="50px">
+              <p>Html</p>
+            </div>
           </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Nodejs">
-            <img src="./img/nodejs.png" alt="" width="50px" height="50px">
-            <p>Nodejs</p>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="CSS">
+              <img src="./img/css-3.png" alt="" width="50px" height="50px">
+              <p>CSS</p>
+            </div>
           </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Expressjs">
-            <img src="./img/icons8-express-js-96.png" alt="" width="50px" height="50px">
-            <p>Expressjs</p>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Java">
+              <img src="./img/java-script.png" alt="" width="50px" height="50px">
+              <p>Java-script</p>
+            </div>
           </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="MongoDB">
-            <img src="./img/icons8-mongodb-48.png" alt="" width="50px" height="50px">
-            <p>MongoDB</p>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Bootstrap">
+              <img src="./img/media.png" alt="" width="50px" height="50px">
+              <p>Bootstrap</p>
+            </div>
           </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Python">
-            <img src="./img/python.png" alt="" width="50px" height="50px">
-            <p>Python</p>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="JQuery">
+              <img src="./img/social.png" alt="" width="50px" height="50px">
+              <p>JQuery</p>
+            </div>
           </div>
-        </div>
-        
-      </div>
-
-      <div class="row3">
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="MySQL">
-            <img src="./img/mysql.png" alt="" width="50px" height="50px">
-            <p>MySQL</p>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Ajax">
-            <img src="./img/ajax.png" alt="" width="50px" height="50px">
-            <p>Ajax</p>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Figma">
-            <img src="./img/figma.png" alt="" width="50px" height="50px">
-            <p>Figma</p>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Wordpress">
-            <img src="./img/wordpress.png" alt="" width="50px" height="50px">
-            <p>Wordpress</p>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="1000">
-          <div class="Wordpress">
-            <img src="./img/icons8-github-96.png" alt="" width="50px" height="50px">
-            <p>Github</p>
-          </div>
-        </div>
           
+        </div>
+
+        <div class="row2">
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Reactjs">
+              <img src="./img/library.png" alt="" width="50px" height="50px">
+              <p>Reactjs</p>
+            </div>
+          </div>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Nodejs">
+              <img src="./img/nodejs.png" alt="" width="50px" height="50px">
+              <p>Nodejs</p>
+            </div>
+          </div>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Expressjs">
+              <img src="./img/icons8-express-js-96.png" alt="" width="50px" height="50px">
+              <p>Expressjs</p>
+            </div>
+          </div>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="MongoDB">
+              <img src="./img/icons8-mongodb-48.png" alt="" width="50px" height="50px">
+              <p>MongoDB</p>
+            </div>
+          </div>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Python">
+              <img src="./img/python.png" alt="" width="50px" height="50px">
+              <p>Python</p>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="row3">
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="MySQL">
+              <img src="./img/mysql.png" alt="" width="50px" height="50px">
+              <p>MySQL</p>
+            </div>
+          </div>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Ajax">
+              <img src="./img/ajax.png" alt="" width="50px" height="50px">
+              <p>Ajax</p>
+            </div>
+          </div>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Figma">
+              <img src="./img/figma.png" alt="" width="50px" height="50px">
+              <p>Figma</p>
+            </div>
+          </div>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Wordpress">
+              <img src="./img/wordpress.png" alt="" width="50px" height="50px">
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div data-aos="flip-right" data-aos-duration="1000">
+            <div class="Wordpress">
+              <img src="./img/icons8-github-96.png" alt="" width="50px" height="50px">
+              <p>Github</p>
+            </div>
+          </div>
+            
+        </div>
       </div>
-    </div> 
+    </section> 
     
     <!--My Project-->
 
-    <div class="projectmain" id="project">
-      <h1>My <span>Projects/></span></h1>
+    <section id="project">
 
-      <div class="singlepage">
-        <div data-aos="fade-right" data-aos-duration="1000">
-          <img src="./img/singlepage.png" alt="" width="350px" height="200px">
-        </div>
-        <div data-aos="zoom-in-right" data-aos-duration="1000">
-          <div class="content1">
-          <h2>Entertainment Website</h2>
-          <p>Developed a responsive Single page entertainment website using HTML and CSS</p>
-          <div class="buttonmain1">
-            <div class="tool1">
-              <a href=""><button>Html</button></a>
-              <a href=""><button>CSS</button></a>
-            </div>
-            <div class="explore">
-              <a href="../singlepag/index.html" target="_blank">Explore Project<i class="bi bi-arrow-up-right-circle"></i></a>
+      <div class="projectmain">
+        <h1>My <span>Projects/></span></h1>
+
+        <div class="cardmain">
+
+          <div data-aos="fade-in" data-aos-duration="3000">
+            <div class="singlepage">
+              <img src="./img/singlepage.png" alt="" width="300px" height="150px">
+              <div class="content1">
+                <h2>Entertainment Website</h2>
+                <p>Developed a responsive rolex watch multy page website using HTML and CSS</p>
+                <div class="buttonmain1">
+                  <div class="tool1">
+                    <p>HTML</p>
+                    <P>CSS</P>
+                  </div>
+                  <div class="explore">
+                    <a href="https://kaliyaperumal02.github.io/Playworld/"><i class="bi bi-arrow-up-right-circle fs-5"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        </div>
-        
-      </div>
 
-      <div class="multipage">
-        <div data-aos="fade-right" data-aos-duration="1000">
-          <img src="./img/multipage.png" alt="" width="350px" height="200px">
-        </div>
-        <div data-aos="zoom-in-right" data-aos-duration="1000">
-          <div class="content1">
-          <h2>Rolex Watch</h2>
-          <p>Developed a responsive rolex watch multy page website using HTML and CSS</p>
-          <div class="buttonmain2">
-            <div class="tool2">
-              <a href=""><button>Html</button></a>
-              <a href=""><button>CSS</button></a>
-            </div>
-            <div class="explore">
-              <a href="../website/index.html" target="_blank">Explore Project<i class="bi bi-arrow-up-right-circle"></i></a>
+          <div data-aos="fade-in"data-aos-duration="3000">
+            <div class="multipage">
+              <img src="./img/multipage.png" alt="" width="300px" height="150px">
+                <div class="content1">
+                  <h2>Rolex Watch</h2>
+                  <p>Developed a responsive rolex watch multy page website using HTML and CSS</p>
+                  <div class="buttonmain2">
+                    <div class="tool2">
+                      <p>HTML</p>
+                      <P>CSS</P>
+                    </div>
+                    <div class="explore">
+                      <a href="https://kaliyaperumal02.github.io/Rolex/"><i class="bi bi-arrow-up-right-circle fs-5"></i></a>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
+
+          <div data-aos="fade-in"data-aos-duration="3000">
+            <div class="multipage">
+              <img src="./img/movieBot.png" alt="" width="300px" height="150px">
+                <div class="content1">
+                  <h2>Movie Bot</h2>
+                  <p>Developed a responsive Movie Search Bot page website using HTML, CSS & Java-script</p>
+                  <div class="buttonmain2">
+                    <div class="tool2">
+                      <p>HTML</p>
+                      <P>CSS</P>
+                      <P>Java-script</P>
+                    </div>
+                    <div class="explore">
+                      <a href="https://kaliyaperumal02.github.io/movie-bot/"><i class="bi bi-arrow-up-right-circle fs-5"></i></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
         </div>
+
+    <!--project 2nd row-->
+        <div class="cardmain">
+
+          <div data-aos="fade-in" data-aos-duration="3000">
+            <div class="singlepage">
+              <img src="./img/CrudJS.png" alt="" width="300px" height="150px">
+              <div class="content1">
+                <h2>Music Search</h2>
+                <p>Developed a responsive API CRUD project website using HTML, CSS & Java-script</p>
+                <div class="buttonmain1">
+                  <div class="tool1">
+                    <p>HTML</p>
+                    <P>CSS</P>
+                    <P>Java-script</P>
+                  </div>
+                  <div class="explore">
+                    <a href="https://kaliyaperumal02.github.io/api-crud-project/"><i class="bi bi-arrow-up-right-circle fs-5"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-in"data-aos-duration="3000">
+            <div class="multipage">
+              <img src="./img/Mini-Mart.png" alt="" width="300px" height="150px">
+                <div class="content1">
+                  <h2>Mini Mart</h2>
+                  <p>Developed a responsive E-Commerce website using React-Js</p>
+                  <div class="buttonmain2">
+                    <div class="tool2">
+                      <p>React-Js</p>
+                      <p>Bootstrap</p>
+                    </div>
+                    <div class="explore">
+                      <a href="https://react-shopping-website-delta.vercel.app/"><i class="bi bi-arrow-up-right-circle fs-5"></i></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-in"data-aos-duration="3000">
+            <div class="multipage">
+              <img src="./img/QR-project.png" alt="" width="300px" height="150px">
+                <div class="content1">
+                  <h2>QR Generator</h2>
+                  <p>Developed a responsive QR Generator website using React-Js</p>
+                  <div class="buttonmain2">
+                    <div class="tool2">
+                      <p>React-Js</p>
+                    </div>
+                    <div class="explore">
+                      <a href="https://qr-generator-1-kxh1.onrender.com/"><i class="bi bi-arrow-up-right-circle fs-5"></i></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
         </div>
-        
+
       </div>
-    </div>
+    </section>
 
     <!--contact-->
-    <div class="contactmain" id="contact">
-      <h1>Get<span>In Touch/></span></h1>
-      <div class="namebox">
-        <div data-aos="fade-right" data-aos-duration="1000">
-          <div class="idmain">
-            <div class="myid">
-              <i class="bi bi-envelope fs-2"></i>
-              <div class="mail">
-                <span>Email</span>
-                <a href="mailto:mks1192002@gmail.com">mks1192002@gmail.com</a>
+    <section id="contacts">
+      <div class="contactmain">
+        <h1>Get<span>In Touch/></span></h1>
+        <div class="namebox">
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <div class="idmain">
+              <div class="myid">
+                <i class="bi bi-envelope fs-2"></i>
+                <div class="mail">
+                  <span>Email</span>
+                  <a href="mailto:mks1192002@gmail.com">mks1192002@gmail.com</a>
+                </div>
               </div>
-            </div>
 
-            <div class="myid2">
-              <i class="bi bi-telephone fs-2"></i>
-              <div class="phone">
-                <span>Phone</span>
-                <a href="tel:+91 9361284968">+91 9361284968</a>
+              <div class="myid2">
+                <i class="bi bi-telephone fs-2"></i>
+                <div class="phone">
+                  <span>Phone</span>
+                  <a href="tel:+91 9361284968">+91 9361284968</a>
+                </div>
               </div>
-            </div>
 
-            <div class="myid3">
-              <i class="bi bi-geo-alt fs-2"></i>
-              <div class="location">
-                <span>Location</span>
-                <a href="">Chennai Tamilnadu</a>
+              <div class="myid3">
+                <i class="bi bi-geo-alt fs-2"></i>
+                <div class="location">
+                  <span>Location</span>
+                  <a href="">Chennai Tamilnadu</a>
+                </div>
+              </div>
+              <div class="icone2 mt-3 mb-4 d-flex gap-3">
+                  <a href=""><button><i class="bi bi-github fs-3 icone-primary"></i></button></i></a>
+                  <a href=""><button><i class="bi bi-linkedin fs-3"></i></button></i></a>
+                  <a href="mailto:mks1192002@gmail.com" target="_blank"><button><i class="bi bi-envelope fs-3"></i></i></button></i></a>
+              </div>
               </div>
             </div>
-            <div class="icone2 mt-3 mb-4 d-flex gap-3">
-                <a href=""><button><i class="bi bi-github fs-3 icone-primary"></i></button></i></a>
-                <a href=""><button><i class="bi bi-linkedin fs-3"></i></button></i></a>
-                <a href="mailto:mks1192002@gmail.com" target="_blank"><button><i class="bi bi-envelope fs-3"></i></i></button></i></a>
-            </div>
-            </div>
+            
+          
+          <div data-aos="fade-left" data-aos-duration="1000">
+            <div class="mainbox">
+              <div class="mailmain">
+                <div class="Name">
+                  <h5>Name</h5>
+                  <input type="text" placeholder="Enter Your Name" required>
+                </div>
+                <div class="email">
+                  <h5>Email</h5>
+                  <input type="email" placeholder="name@gamil.com" required>
+                </div>
+                <div class="message">
+                  <h5>Message</h5>
+                  <input type="text" placeholder="Tell me about my project">
+                </div>
+                <div class="submit">
+                  <a href=""><button>Send Message<i class="bi bi-send"></i></button></a>
+                </div>
+              </div>
+            </div> 
           </div>
           
-        
-        <div data-aos="fade-left" data-aos-duration="1000">
-          <div class="mainbox">
-            <div class="mailmain">
-              <div class="Name">
-                <h5>Name</h5>
-                <input type="text" placeholder="Enter Your Name" required>
-              </div>
-              <div class="email">
-                <h5>Email</h5>
-                <input type="email" placeholder="name@gamil.com" required>
-              </div>
-              <div class="message">
-                <h5>Message</h5>
-                <input type="text" placeholder="Tell me about my project">
-              </div>
-              <div class="submit">
-                <a href=""><button>Send Message<i class="bi bi-send"></i></button></a>
-              </div>
-            </div>
-          </div> 
         </div>
-        
-      </div>
-    </div> 
+      </div> 
+    </section>
     
     <!--footer-->
     <div class="footer">
@@ -341,7 +438,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-  AOS.init();
-</script>
+      AOS.init();
+    </script>
+<script src="./app.js"></script>
   </body>
 </html>
